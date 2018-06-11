@@ -4,21 +4,27 @@
  Assume you are an event coordinator for a community charity event and are keeping a list of who has registered. Create a variable `registrationList` that will hold strings. It should be empty after initialization.
  */
 
+var registrationList = Array<String>()
+
 
 /*:
  Your friend Sara is the first to register for the event. Add her name to `registrationList` using the `append(_:)` method. Print the contents of the collection.
  */
-
+registrationList.append("Sara")
+print(registrationList[0])
 
 /*:
  Add four additional names into the array using the `+=` operator. All of the names should be added in one step. Print the contents of the collection.
  */
-
+var newReg = ["Ben", "Ivy", "Jordell", "Liam"]
+registrationList.append(contentsOf: newReg)
+print(registrationList)
 
 /*:
  Use the `insert(_:at:)` method to add `Charlie` into the array as the second element. Print the contents of the collection.
  */
-
+registrationList.insert("Charlie", at: 1)
+print(registrationList)
 
 /*:
  Someone had a conflict and decided to transfer her registration to someone else. Use array subscripting to change the sixth element to `Rebecca`. Print the contents of the collection.

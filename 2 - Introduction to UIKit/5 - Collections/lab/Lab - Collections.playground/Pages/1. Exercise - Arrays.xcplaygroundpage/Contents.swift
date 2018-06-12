@@ -29,8 +29,10 @@ print(registrationList)
 /*:
  Someone had a conflict and decided to transfer her registration to someone else. Use array subscripting to change the sixth element to `Rebecca`. Print the contents of the collection.
  */
-
-
+if let i = registrationList.index(of: "Liam") {
+    registrationList[i] = "Rebecca"
+}
+print(registrationList)
 /*:
  Call `removeLast()` on `registrationList`. If done correctly, this should remove `Rebecca` from the collection. Store the result of `removeLast()` into a new constant `deletedItem`, then print `deletedItem`.
  */

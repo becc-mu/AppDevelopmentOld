@@ -1,6 +1,7 @@
 # App Development with Swift 4
 
-App Development with Swift Projects and exercise from Apple's text book.
+This folder contains a collection of App Development with Swift Projects and exercise from Apple's text Book. I have learned how to use iOS development tools and Swift programming concepts. 
+.
 
 ### Apps to make
 - [ ] 1 - Getting Started.

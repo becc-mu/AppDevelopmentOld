@@ -4,7 +4,8 @@ This folder contains a collection of App Development with Swift Projects and exe
 
 
 ### Apps to make
-- [ ] 1 - Getting Started.
+- [x] 1 - Getting Started.
+  - [x] Guided Project Light
 - [ ] 2 - Introduction to UIKit.
 - [ ] 3 - Navigation and Workflows.
 - [ ] 3A - Building AR Apps with Xcode.
